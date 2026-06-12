@@ -137,9 +137,9 @@ function buildHero() {
 buildPage();
 initCatalog();
 
-function initCatalog() {
+async function initCatalog() {
   syncHeader();
-  loadProducts();
+  await loadProducts();
   bindSearch();
   bindCategorySelect();
 }
@@ -152,9 +152,12 @@ function loadCategories(produtos) {
   populateCategoryChips(list);
 }
 
-function loadProducts() {
+async function loadProducts() {
   const grid = document.getElementById('product-grid');
-  const list = produtosLocal.listar();
+  showLoadingState(grid, 'Buscando produtos…');
+  const { data, error } = await catalogoApi.listarProdutos();
+  const fromApi = !error ? (Array.isArray(data) ? data : (data?.produtos ?? data?.data ?? [])) : [];
+  const list = fromApi.length > 0 ? fromApi : PRODUTOS_FIXOS;
   allProducts = list;
   loadCategories(list);
   renderProducts(list);
