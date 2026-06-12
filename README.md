@@ -1,6 +1,6 @@
 # Encanto Íntimo — Lingerie & Moda Íntima
 
-Projeto Frontend desenvolvido para a disciplina **P2 de Frontend** — FATEC São Roque.
+Projeto Frontend desenvolvido para a disciplina PSI **P2 de Frontend** — FATEC São Roque.
 
 ---
 
