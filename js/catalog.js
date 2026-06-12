@@ -158,7 +158,7 @@ async function loadProducts() {
   const { data } = await catalogoApi.listarProdutos();
   const fromApi  = Array.isArray(data) ? data : (data?.produtos ?? data?.data ?? []);
   const local    = produtosLocal.listar();
-  const list     = local.length > 0 ? local : fromApi;
+  const list     = local.length > 0 ? local : (fromApi.length > 0 ? fromApi : PRODUTOS_FIXOS);
   allProducts = list;
   loadCategories(list);
   renderProducts(list);

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#fdf2f8"/>
+
+  <!-- spaghetti straps -->
+  <line x1="127" y1="75" x2="130" y2="100" stroke="#ec4899" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="173" y1="75" x2="170" y2="100" stroke="#ec4899" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- dress body - trapezoid shape flaring outward -->
+  <path d="M126 100 C120 105 118 115 118 120 L95 235 L205 235 L182 120 C182 115 180 105 174 100 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- chest panel / bodice detail -->
+  <path d="M126 100 Q150 115 174 100" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+
+  <!-- empire waist seam -->
+  <path d="M120 128 Q150 122 180 128" fill="none" stroke="#ec4899" stroke-width="1.2" opacity="0.6"/>
+
+  <!-- lace hem at bottom -->
+  <path d="M95 235 Q101 227 107 235 Q113 227 119 235 Q125 227 131 235 Q137 227 143 235 Q149 227 155 235 Q161 227 167 235 Q173 227 179 235 Q185 227 191 235 Q197 227 203 235 Q205 227 205 235" fill="none" stroke="#be185d" stroke-width="1.5"/>
+
+  <!-- lace at neckline -->
+  <path d="M126 100 Q131 93 136 100 Q141 93 146 100 Q151 93 156 100 Q161 93 166 100 Q171 93 174 100" fill="none" stroke="#be185d" stroke-width="1.5"/>
+
+  <text x="150" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9d174d" letter-spacing="2">CAMISOLAS</text>
+</svg>

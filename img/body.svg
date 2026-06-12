@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#fdf2f8"/>
+
+  <!-- shoulder straps -->
+  <line x1="120" y1="82" x2="128" y2="110" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+  <line x1="180" y1="82" x2="172" y2="110" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- torso body -->
+  <path d="M110 110 C96 118 88 135 90 160 C92 186 105 218 150 222 C195 218 208 186 210 160 C212 135 204 118 190 110 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- neckline V -->
+  <path d="M128 110 Q150 130 172 110" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+
+  <!-- waist seam detail -->
+  <path d="M95 168 Q122 160 150 162 Q178 160 205 168" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.5"/>
+
+  <!-- snap area at bottom -->
+  <rect x="136" y="213" width="28" height="10" rx="5" fill="#ec4899"/>
+  <circle cx="144" cy="218" r="2.5" fill="#fdf2f8"/>
+  <circle cx="150" cy="218" r="2.5" fill="#fdf2f8"/>
+  <circle cx="156" cy="218" r="2.5" fill="#fdf2f8"/>
+
+  <!-- lace at neckline -->
+  <path d="M128 110 Q133 104 138 110 Q143 104 148 110 Q153 104 158 110 Q163 104 168 110 Q172 104 172 110" fill="none" stroke="#be185d" stroke-width="1.5"/>
+
+  <text x="150" y="274" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9d174d" letter-spacing="2">BODIES</text>
+</svg>

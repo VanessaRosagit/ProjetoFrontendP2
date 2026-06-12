@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#fdf2f8"/>
+
+  <!-- ===== MINI BRA (top half) ===== -->
+  <!-- straps -->
+  <line x1="122" y1="62" x2="130" y2="80" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+  <line x1="178" y1="62" x2="170" y2="80" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- left cup -->
+  <path d="M93 118 C80 108 82 88 106 82 C118 78 128 84 128 116 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="1.5"/>
+  <!-- right cup -->
+  <path d="M207 118 C220 108 218 88 194 82 C182 78 172 84 172 116 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="1.5"/>
+  <!-- center gore -->
+  <rect x="128" y="96" width="24" height="20" rx="3" fill="#fce7f3" stroke="#ec4899" stroke-width="1"/>
+  <!-- band -->
+  <rect x="93" y="118" width="114" height="12" rx="6" fill="#ec4899"/>
+  <!-- lace on band -->
+  <path d="M93 118 Q99 112 105 118 Q111 112 117 118 Q123 112 128 118" fill="none" stroke="#be185d" stroke-width="1"/>
+  <path x="172" d="M172 118 Q178 112 184 118 Q190 112 196 118 Q202 112 207 118" fill="none" stroke="#be185d" stroke-width="1"/>
+
+  <!-- ===== MINI PANTIES (bottom half) ===== -->
+  <!-- waistband -->
+  <rect x="97" y="158" width="106" height="13" rx="6.5" fill="#ec4899"/>
+  <!-- lace on waistband -->
+  <path d="M97 158 Q103 151 109 158 Q115 151 121 158 Q127 151 133 158 Q139 151 145 158 Q151 151 157 158 Q163 151 169 158 Q175 151 181 158 Q187 151 193 158 Q199 151 203 158" fill="none" stroke="#be185d" stroke-width="1"/>
+  <!-- body -->
+  <path d="M97 171 C88 192 90 216 104 228 C118 238 134 241 150 241 C166 241 182 238 196 228 C210 216 212 192 203 171 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="1.5"/>
+  <!-- leg openings -->
+  <ellipse cx="108" cy="218" rx="16" ry="24" fill="#fdf2f8" transform="rotate(-18, 108, 218)"/>
+  <ellipse cx="192" cy="218" rx="16" ry="24" fill="#fdf2f8" transform="rotate(18, 192, 218)"/>
+  <!-- bow -->
+  <path d="M145 165 C145 162 148 161 150 163 C152 161 155 162 155 165 C155 168 152 167 150 165 C148 167 145 168 145 165 Z" fill="#be185d"/>
+  <circle cx="150" cy="165" r="1.8" fill="#9d174d"/>
+
+  <text x="150" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9d174d" letter-spacing="2">CONJUNTOS</text>
+</svg>

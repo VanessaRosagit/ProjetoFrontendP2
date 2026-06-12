@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#fdf2f8"/>
+
+  <!-- shoulder straps -->
+  <line x1="112" y1="82" x2="128" y2="132" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+  <line x1="188" y1="82" x2="172" y2="132" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- left cup -->
+  <path d="M78 196 C58 178 60 142 96 132 C116 126 133 134 133 186 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- right cup -->
+  <path d="M222 196 C242 178 240 142 204 132 C184 126 167 134 167 186 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- center gore -->
+  <rect x="133" y="164" width="34" height="22" rx="4" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+
+  <!-- band -->
+  <rect x="78" y="196" width="144" height="16" rx="8" fill="#ec4899"/>
+
+  <!-- lace on band top edge -->
+  <path d="M78 196 Q85 188 92 196 Q99 188 106 196 Q113 188 120 196 Q127 188 134 196" fill="none" stroke="#be185d" stroke-width="1.5"/>
+  <path d="M166 196 Q173 188 180 196 Q187 188 194 196 Q201 188 208 196 Q215 188 222 196" fill="none" stroke="#be185d" stroke-width="1.5"/>
+
+  <!-- underwire detail -->
+  <path d="M78 196 C85 182 108 176 133 186" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.5"/>
+  <path d="M222 196 C215 182 192 176 167 186" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.5"/>
+
+  <!-- strap connection dots -->
+  <circle cx="128" cy="132" r="3" fill="#ec4899"/>
+  <circle cx="172" cy="132" r="3" fill="#ec4899"/>
+
+  <text x="150" y="274" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9d174d" letter-spacing="2">SUTIÃS</text>
+</svg>

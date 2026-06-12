@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#fdf2f8"/>
+
+  <!-- waistband / panty top -->
+  <rect x="82" y="72" width="136" height="16" rx="8" fill="#ec4899"/>
+  <!-- lace trim -->
+  <path d="M82 72 Q89 64 96 72 Q103 64 110 72 Q117 64 124 72 Q131 64 138 72 Q145 64 152 72 Q159 64 166 72 Q173 64 180 72 Q187 64 194 72 Q201 64 208 72 Q215 64 218 72" fill="none" stroke="#be185d" stroke-width="1.5"/>
+
+  <!-- panty body portion -->
+  <path d="M82 88 C76 100 76 112 80 120 L112 120 L150 120 L188 120 L220 120 C224 112 224 100 218 88 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="1.5"/>
+
+  <!-- crotch seam -->
+  <path d="M112 120 Q120 135 150 138 Q180 135 188 120" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+
+  <!-- left leg -->
+  <path d="M80 120 C74 140 72 175 74 210 C76 230 90 242 108 243 C126 244 136 232 137 210 C138 186 136 150 128 120 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- right leg -->
+  <path d="M220 120 C226 140 228 175 226 210 C224 230 210 242 192 243 C174 244 164 232 163 210 C162 186 164 150 172 120 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- leg seam details -->
+  <path d="M104 143 C106 175 108 205 108 235" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.4"/>
+  <path d="M196 143 C194 175 192 205 192 235" fill="none" stroke="#ec4899" stroke-width="1" opacity="0.4"/>
+
+  <!-- toe reinforcement -->
+  <ellipse cx="107" cy="240" rx="20" ry="6" fill="#ec4899" opacity="0.5"/>
+  <ellipse cx="193" cy="240" rx="20" ry="6" fill="#ec4899" opacity="0.5"/>
+
+  <text x="150" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9d174d" letter-spacing="2">MEIAS</text>
+</svg>

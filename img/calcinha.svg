@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#fdf2f8"/>
+
+  <!-- body -->
+  <path d="M82 113 C64 142 62 180 80 205 C98 226 124 231 150 231 C176 231 202 226 220 205 C238 180 236 142 218 113 Z" fill="#fbcfe8" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- leg opening cutouts -->
+  <ellipse cx="96" cy="182" rx="22" ry="36" fill="#fdf2f8" transform="rotate(-18, 96, 182)"/>
+  <ellipse cx="204" cy="182" rx="22" ry="36" fill="#fdf2f8" transform="rotate(18, 204, 182)"/>
+
+  <!-- waistband -->
+  <rect x="82" y="95" width="136" height="18" rx="9" fill="#ec4899"/>
+
+  <!-- lace trim on waistband -->
+  <path d="M82 95 Q89 87 96 95 Q103 87 110 95 Q117 87 124 95 Q131 87 138 95 Q145 87 152 95 Q159 87 166 95 Q173 87 180 95 Q187 87 194 95 Q201 87 208 95 Q215 87 218 95" fill="none" stroke="#be185d" stroke-width="1.5"/>
+
+  <!-- bow -->
+  <path d="M144 104 C144 99 148 97 150 101 C152 97 156 99 156 104 C156 109 152 107 150 104 C148 107 144 109 144 104 Z" fill="#be185d"/>
+  <circle cx="150" cy="104" r="2.5" fill="#9d174d"/>
+
+  <text x="150" y="274" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9d174d" letter-spacing="2">CALCINHAS</text>
+</svg>
