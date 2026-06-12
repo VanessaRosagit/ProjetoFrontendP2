@@ -60,10 +60,14 @@ Desenvolver uma aplicação web de e-commerce para uma loja de lingerie, consumi
 
 ## Link do vídeo pitch
 
-[Assistir no YouTube / Drive](LINK_DO_VIDEO)
+Youtub: https://youtu.be/gNze8qbQ1Qo?si=9_jLYclCVnfJr8Ux
 
 ---
+## Link do Linkedin
+https://www.linkedin.com/posts/vanessa-rosa-706862186_sistemasparainternet-fatecsaoroque-frontend-share-7471336760736788480-oeFp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACvot3YB12RVdvoBbVakvUs_R-kif0Ykjiw
 
+
+---
 ## Estrutura do projeto
 
 ```text
