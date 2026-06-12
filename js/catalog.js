@@ -155,6 +155,13 @@ function loadCategories(produtos) {
 async function loadProducts() {
   const grid = document.getElementById('product-grid');
   showLoadingState(grid, 'Buscando produtos…');
+  const local = produtosLocal.listar();
+  if (local.length > 0) {
+    allProducts = local;
+    loadCategories(local);
+    renderProducts(local);
+    return;
+  }
   const { data, error } = await catalogoApi.listarProdutos();
   const fromApi = !error ? (Array.isArray(data) ? data : (data?.produtos ?? data?.data ?? [])) : [];
   const list = fromApi.length > 0 ? fromApi : PRODUTOS_FIXOS;
