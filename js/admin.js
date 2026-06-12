@@ -14,11 +14,6 @@ if (!requireAuth(window.location.href)) {
   document.getElementById('btn-novo-produto').addEventListener('click', () => openProdutoModal(null));
   document.getElementById('btn-novo-usuario').addEventListener('click', () => openUsuarioModal(null));
 
-  const user = auth.getUser();
-  if (user?.papel !== 'administrador') {
-    const tabUsuarios = document.getElementById('tab-usuarios');
-    if (tabUsuarios) tabUsuarios.style.display = 'none';
-  }
 }
 
 /* =============================================

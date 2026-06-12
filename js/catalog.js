@@ -112,7 +112,6 @@ function buildHero() {
   }));
   const ctaRow = el('div', { classes: ['hero__cta'] });
   ctaRow.appendChild(el('a', { classes: ['btn', 'btn-primary', 'btn-lg'], text: 'Ver catálogo', attrs: { href: '#catalogo' } }));
-  ctaRow.appendChild(el('a', { classes: ['btn', 'btn-outline-light', 'btn-lg'], text: 'Criar conta', attrs: { href: 'index.html?page=cadastro' } }));
   content.appendChild(ctaRow);
 
   const illu = el('div', { classes: ['hero__illustration'], attrs: { 'aria-hidden': 'true' } });

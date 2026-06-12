@@ -230,35 +230,28 @@ function syncHeader() {
 
   if (auth.isLoggedIn()) {
     const user = auth.getUser();
-    const name = user?.nome ?? user?.name ?? 'Usuário';
+    const name = user?.nome ?? user?.name ?? 'Admin';
 
     navUser.appendChild(el('span', {
       classes: ['nav-greeting'],
       text: `Olá, ${name.split(' ')[0]}`,
     }));
 
-    if (user?.papel === 'administrador') {
-      navUser.appendChild(el('a', {
-        classes: ['nav-admin-link'],
-        text: 'Painel Admin',
-        attrs: { href: 'index.html?page=admin' },
-      }));
-      buildAdminFab();
-    }
+    navUser.appendChild(el('a', {
+      classes: ['nav-admin-link'],
+      text: 'Painel Admin',
+      attrs: { href: 'index.html?page=admin' },
+    }));
+    buildAdminFab();
 
     const logoutBtn = el('button', { classes: ['btn', 'btn-ghost', 'btn-sm'], text: 'Sair' });
     logoutBtn.addEventListener('click', () => { authApi.sair(); window.location.reload(); });
     navUser.appendChild(logoutBtn);
   } else {
     navUser.appendChild(el('a', {
-      classes: ['btn', 'btn-ghost', 'btn-sm'],
+      classes: ['btn', 'btn-primary', 'btn-sm'],
       text: 'Entrar',
       attrs: { href: 'index.html?page=login' },
-    }));
-    navUser.appendChild(el('a', {
-      classes: ['btn', 'btn-primary', 'btn-sm'],
-      text: 'Criar conta',
-      attrs: { href: 'index.html?page=cadastro' },
     }));
   }
 }

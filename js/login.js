@@ -88,15 +88,9 @@ function buildAuthMain() {
     attrs: { type: 'submit', id: 'submit-btn' },
   }));
 
-  // Rodapé
-  const cardFooter = el('p', { classes: ['auth-card__footer'] });
-  cardFooter.appendChild(document.createTextNode('Não tem conta? '));
-  cardFooter.appendChild(el('a', { text: 'Criar conta grátis', attrs: { href: 'index.html?page=cadastro' } }));
-
   card.appendChild(header);
   card.appendChild(alertEl);
   card.appendChild(form);
-  card.appendChild(cardFooter);
   main.appendChild(card);
   return main;
 }
