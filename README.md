@@ -48,6 +48,7 @@ Desenvolver uma aplicação web de e-commerce para uma loja de lingerie, consumi
 3. Ou use a extensão **Live Server** no VS Code para servir localmente
 
 > Não é necessário instalar dependências — o projeto usa apenas HTML, CSS e JavaScript puro.
+> Para entrar no admin coloque o login admin@gmail.com senha 123
 
 ---
 
