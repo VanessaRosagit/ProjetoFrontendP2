@@ -54,7 +54,7 @@ Desenvolver uma aplicação web de e-commerce para uma loja de lingerie, consumi
 
 ## Link do deploy
 
-[GitHub Pages — Encanto Íntimo](https://SEU_USUARIO.github.io/SEU_REPOSITORIO)
+[GitHub Pages — Encanto Íntimo] https://vanessarosagit.github.io/ProjetoFrontendP2/
 
 ---
 
